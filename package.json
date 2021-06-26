@@ -1,0 +1,14 @@
+{
+    "name": "testig",
+    "main": "./src/server.js",
+    "config": {
+        "port": "8080"
+    },
+    "scripts": {
+        "start": "node ./src/server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "portscanner": "^2.2.0"
+    }
+}
